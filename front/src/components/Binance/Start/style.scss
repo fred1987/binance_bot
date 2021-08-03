@@ -1,0 +1,38 @@
+.binance-start {
+    .calc {
+        margin-left: 20px;
+    }
+
+    .calculator {
+        margin-top: 40px;
+
+        &-header {
+            margin-bottom: 7px;
+            display: flex;
+            justify-content: space-between;
+
+            .coverage {
+                span {
+                    margin-left: 30px;
+                }
+            }
+        }
+
+        .calculator-table {
+            table {
+                width: 100%;
+                border-collapse: collapse;
+
+                td, th {
+                    padding: 5px 7px;
+                    border: 1px solid #000;
+                }
+
+                tr.warning {
+                    background-color: #f8d7da;
+                }
+            }
+        }
+    }
+
+}

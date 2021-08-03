@@ -1,0 +1,26 @@
+.binance-form {
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+
+        label {
+            width: 25%;
+
+            &:not(:first-child) {
+                padding-left: 20px;
+            }
+
+            span {
+                margin: 0 0 5px 0;
+                font-size: 15px;
+                display: block;
+                font-weight: 100;
+            }
+
+            input,
+            select {
+                width: 100%;
+            }
+        }
+    }
+}

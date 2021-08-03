@@ -1,0 +1,31 @@
+.notices {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+
+    .item {
+        padding: 7px 20px;
+        font-size: 14px;
+
+        &.error {
+            background-color: #fef0f0;
+            color: #f56c6c;
+        }
+
+        &.success {
+            background-color: #f0f9eb;
+            color: #67c23a;
+        }
+
+        &.info {
+            background-color: #f4f4f5;
+            color: #909399;
+        }
+
+        &.warning {
+            background-color: #fdf6ec;
+            color: #e6a23c;
+        }
+    }
+}

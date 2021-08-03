@@ -1,0 +1,19 @@
+.tabs {
+
+    &-links {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        list-style: none;
+        user-select: none;
+
+        .link {
+            cursor: pointer;
+            padding: 5px 30px;
+
+            &.selected {
+                border-bottom: 2px solid #949494;
+            }
+        }
+    }
+}

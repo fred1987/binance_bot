@@ -1,0 +1,2 @@
+//wsClients, telegramChatIds
+export default {};
