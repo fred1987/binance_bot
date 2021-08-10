@@ -1,7 +1,7 @@
 import {config} from 'dotenv';
 import {join} from 'path';
 
-const root = join.bind(this, process.cwd(), './server/');
+const root = join.bind(this, process.cwd(), './');
 config({path: root('.env')});
 
 export const telegram_token = process.env.TELEGRAM_TOKEN;

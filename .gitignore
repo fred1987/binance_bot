@@ -1,0 +1,6 @@
+.idea
+server/node_modules
+server/package-lock.json
+server/logs
+front/node_modules
+front/package-lock.json
