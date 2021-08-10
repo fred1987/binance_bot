@@ -1,2 +1,3 @@
-# binance_trading_bot
-Торговый бот для Binance - сеточник. Node.js +  интерфейс на React
+# binance trading bot
+Торговый бот для Binance - сеточник. Node.js +  интерфейс на React.
+Здесь должна быть дока по установке и настройке, но мне пока лень...
