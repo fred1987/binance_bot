@@ -1,4 +1,3 @@
-//import {setIntervalAsync, clearIntervalAsync} from 'set-interval-async/fixed/index.js';
 import {evaluate} from 'mathjs';
 import {COMMISSION_BNB} from '../../constants.js';
 import mainStore from '../../../store.js';

@@ -16,7 +16,6 @@ import {binance_keys, binance_secrets} from './config.js';
 import helpers from './helpers.js';
 import {sendMessage} from './utils.js';
 //import {wsPartialDepth} from './binance/actions.js';
-//import {default as Redis} from 'ioredis';
 
 //подключаем ключевые функции, вызываемые через wss
 const DF = {
@@ -294,16 +293,5 @@ telegramBot.on('message', async msg => {
         logger.error(error);
     }
 });
-
-//const redis = new Redis();
-//
-////Подписываемся на канал
-//redis.psubscribe('*');
-//
-////ловим все события
-//redis.on('pmessage', (pattern, channel, message) => {
-//    message = JSON.parse(message);
-//    console.log(pattern, channel, message);
-//});
 
 server.listen(9000);
